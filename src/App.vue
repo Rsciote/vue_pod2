@@ -1,27 +1,26 @@
-<template>
-  <!----<img alt="Vue logo" src="./assets/logo.png">-->
-  <HelloWorld msg="HELLO WORLD"/>
+<h1>Sidney Crosby Card</h1>
+    
 
-</template>
+<div class="buttons">
+   <button id="cloneButton">Clone Card </button>
+    <button id="toggleColorButton">Toggle Color</button>
+    <button id="changeTextButton">Change Text</button>
+    <button id="deleteCardButton">Delete Card</button>
+  <button details-button>Details</button>
+  </div>
+    
+    
+  <div id="card" class="card">
+<div class ="heading">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Sidney_Crosby_2018-12-19_2.jpg" >
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+    
+</div>
+  
+  
+<section>
+    <h2> Description</h2>
+    <p> Crosby One of the Best Penguins and Hockey Players of all time in all his glory </p>
+  </section>  
+  </div>
+   
